@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript moderno</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="video-layout">
+    <!-- SIDEBAR DEL CURSO -->
+    <aside class=" clase-sidebar">
+        <h2>Curso de JavaScript moderno</h2>
+
+        <div class="sidebar-list">
+
+            <a href="/html/curso-javascript/clase01.html">1. Fundamentos del Nuevo Estándar</a>
+            <a href="/html/curso-javascript/clase02.html">2. Lógica de Datos y Programación Funcional</a>
+            <a href="/html/curso-javascript/clase03.html">3. Asincronía y El Event Loop</a>
+            <a href="/html/curso-javascript/clase04.html">4. Arquitectura, Módulos y Tooling</a>
+
+        </div>
+
+        <a href="/html/curso.html" class="volver"><strong>← Volver al curso</strong></a>
+    </aside>
+
+    <!-- VIDEO Y CONTENIDO -->
+    <main class="clase-main">
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/2Ji-clqUYnA" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h1>Módulo 4. Arquitectura, Módulos y Tooling</h1>
+
+        <p class="descripcion">La asincronía en JavaScript permite que el código ejecute operaciones largas sin bloquear
+            el hilo principal, manteniendo la fluidez de la aplicación, mientras que el Event Loop es el mecanismo que
+            gestiona esta asincronía. El Event Loop supervisa constantemente la "Pila de Llamadas" (Call Stack) y una o
+            más "Colas" de tareas asíncronas. Cuando la Pila de Llamadas está vacía, el Event Loop toma la primera tarea
+            de la cola y la mueve a la Pila para su ejecución.</p>
+
+        <a><strong>Enfoque: </strong>Organizar el código como un ingeniero de software, separando responsabilidades y
+            preparando el entorno para producción.</a>
+
+        <h3><Strong>Temario</Strong></h3>
+
+        <ul>
+            <li><strong>ES Modules (ESM): </strong>import y export (default vs named). Cómo dividir el código en
+                archivos
+                lógicos.</li>
+            <li><strong>Clases Modernas: </strong>Sintaxis class, propiedades privadas (#propiedad), getters y
+                setters..</li>
+            <li><strong>Almacenamiento en el Cliente: </strong>localStorage vs sessionStorage con JSON.</li>
+            <li><strong>Introducción al Tooling: </strong>¿Qué es NPM? y una breve introducción a Vite para levantar un
+                entorno de desarrollo local profesional (dejando atrás el abrir el HTML directamente).</li>
+        </ul>
+
+        <p><strong>Práctica guiada: </strong>"Modularizando la App". Tomar el proyecto del Módulo 3 y dividirlo en
+            archivos: api.js (servicios), ui.js (renderizado), main.js (lógica), usando ES Modules.</p>
+        <p><strong>Tarea Final / Proyecto Integrador: Gestor de Tareas (To-Do App) Persistente.</strong>Una aplicación
+            completa que permita crear, editar y
+            eliminar tareas (Clases). Debe guardar los datos en localStorage, estar dividida en módulos, y usar
+            manipulación del DOM eficiente.</p>
+
+        <h3>Recursos de la clase</h3>
+        <ul class="recursos">
+            <li><a href="#">📄 Apuntes en PDF</a></li>
+            <li><a href="#">📁 Código fuente</a></li>
+            <li><a href="#">📝 Ejercicios</a></li>
+        </ul>
+
+        <h3>Comentarios</h3>
+
+        <div class="comentario">
+            <strong>Carlos:</strong>
+            <p>Excelente inicio 🔥</p>
+        </div>
+
+        <div class="comentario">
+            <strong>María:</strong>
+            <p>¡Muy motivador el arranque!</p>
+        </div>
+
+        <textarea placeholder="Escribe tu comentario..."></textarea>
+        <button class="btn">Enviar</button>
+
+    </main>
+
+</body>
+
+</html>

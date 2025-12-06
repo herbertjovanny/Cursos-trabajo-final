@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS Profesional</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class=" video-layout">
+    <!-- SIDEBAR DEL CURSO -->
+    <aside class=" clase-sidebar">
+        <h2>HTML + CSS Profesional</h2>
+
+        <div class="sidebar-list">
+
+            <a href="/html/curso-html-css/clase01.html">1. Introducción a
+                html</a>
+            <a href="/html/curso-html-css/clase02.html">2. Fundamentos de
+                Estilo y el Modelo de Caja (CSS3)</a>
+            <a href="/html/curso-html-css/clase03.html">3. Flexbox y
+                Grid</a>
+            <a href="/html/curso-html-css/clase04.html">4. Responsive Design
+            </a>
+
+        </div>
+
+        <a href="/html/curso.html" class="volver"><strong>← Volver al curso</strong></a>
+    </aside>
+
+    <!-- VIDEO Y CONTENIDO -->
+    <main class="clase-main">
+
+        <div class="video-player-container">
+            <!-- Contenedor del video actual -->
+            <div class="current-video-container">
+                <iframe id="current-video" src="https://youtu.be/DSRY7Q4v0A0" width="640" height="480"></iframe>
+            </div>
+
+            <!-- Lista de reproducción -->
+            <div class="playlist-container">
+                <h3>Lista de reproducción</h3>
+                <div class="playlist">
+                    <div class="playlist-item active" data-video-id="DSRY7Q4v0A0" data-video-type="drive">
+                        <span class="playlist-number">1</span>
+                        <span class="playlist-title">Introducción a
+                            html parte 1</span>
+                        <span class="playlist-duration">3:57</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="LS38v8gQpuQ">
+                        <span class="playlist-number">2</span>
+                        <span class="playlist-title">Introducción a html parte 2</span>
+                        <span class="playlist-duration">3:32</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="JcFCPEMPzvg">
+                        <span class="playlist-number">3</span>
+                        <span class="playlist-title">Introducción a html parte 3</span>
+                        <span class="playlist-duration">3:37</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="NB6t2jKVi1M">
+                        <span class="playlist-number">4</span>
+                        <span class="playlist-title">Introducción a html parte 4</span>
+                        <span class="playlist-duration">3:31</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="7D4i68ZyiiI">
+                        <span class="playlist-number">5</span>
+                        <span class="playlist-title">Introducción a html parte 5</span>
+                        <span class="playlist-duration">3:41</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="kR5Ph_EnjDc">
+                        <span class="playlist-number">6</span>
+                        <span class="playlist-title">Introducción a html parte 6</span>
+                        <span class="playlist-duration">3:25</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="8xanhHc4NAg">
+                        <span class="playlist-number">7</span>
+                        <span class="playlist-title">Introducción a html parte 7</span>
+                        <span class="playlist-duration">3:40</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="sKhjiCI8O8I">
+                        <span class="playlist-number">8</span>
+                        <span class="playlist-title">Introducción a html parte 8</span>
+                        <span class="playlist-duration">3:31</span>
+                    </div>
+                </div>
+
+                <!-- Controles de navegación -->
+                <div class="playlist-controls">
+                    <button id="prev-video" class="playlist-btn">← Anterior</button>
+                    <span id="video-counter">Video 1 de 4</span>
+                    <button id="next-video" class="playlist-btn">Siguiente →</button>
+                </div>
+            </div>
+        </div>
+
+        <h1>1. Introducción a Html</h1>
+
+        <p class="descripcion">La web moderna se construye sobre dos pilares
+            fundamentales: estructura y presentación.
+            En
+            este curso,
+            abordaremos el desarrollo web no como la simple memorización de
+            etiquetas, sino como la construcción de
+            sistemas de información accesibles.
+
+            HTML (HyperText Markup Language) nos permitirá definir el
+            significado y la estructura del contenido,
+            mientras que CSS (Cascading Style Sheets) nos dará el poder de
+            controlar la apariencia visual, la tipografía
+            y la adaptación a diferentes dispositivos. Este curso elimina
+            las prácticas obsoletas y se centra
+            exclusivamente en estándares actuales.
+        </p>
+
+        <h2><strong>Módulo 1:</strong> Arquitectura y Semántica Web
+            (HTML5)</h2>
+        <a><strong>Enfoque:</strong> Entender que HTML es para el
+            significado, no para el estilo.</a>
+
+        <h3><strong>Temario</strong></h3>
+
+        <ul>
+            <li>Historia de la web y funcionamiento cliente-servidor.</li>
+            <li>Sintaxis básica y estructura del DOM (html, head,
+                body).</li>
+            <li><strong>Semántica:</strong> Etiquetas estructurales (header,
+                nav, main, section, article, footer).</li>
+            <li>Manejo de Multimedia (Imágenes, Audio, Video) y
+                Enlaces.</li>
+            <li>Formularios modernos y validaciones nativas.</li>
+        </ul>
+
+        <p><strong>Ejemplo en clase: </strong>Creación de la estructura de
+            un artículo de blog periodístico.</p>
+        <p><strong>Práctica guiada: </strong>Construcción de un
+            "Perfil de Usuario" utilizando solo HTML semántico.</p>
+        <p><strong>Tarea autónoma: </strong>Crear la estructura de una
+            página de "Hoja de Vida (CV)" que incluya foto,
+            tabla de habilidades y formulario de contacto.</p>
+
+        <h3>Recursos de la clase</h3>
+        <ul class="recursos">
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">📄 Apuntes</a></li>
+            <li><a href="https://www.w3schools.com/">📁 Código fuente</a></li>
+            <li><a href="https://docs.div.zone/docs/intro">📝 Ejercicios</a></li>
+        </ul>
+
+        <h3>Comentarios</h3>
+
+        <div class="comentario">
+            <strong>Carlos:</strong>
+            <p>Excelente inicio 🔥</p>
+        </div>
+
+        <div class="comentario">
+            <strong>María:</strong>
+            <p>¡Muy motivador el arranque!</p>
+        </div>
+
+        <textarea placeholder="Escribe tu comentario..."></textarea>
+        <button class="btn">Enviar</button>
+
+    </main>
+
+    <!-- Enlace al archivo JavaScript externo -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

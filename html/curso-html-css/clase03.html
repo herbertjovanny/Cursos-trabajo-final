@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS Profesional</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="video-layout">
+    <!-- SIDEBAR DEL CURSO -->
+    <aside class=" clase-sidebar">
+        <h2>HTML + CSS Profesional</h2>
+
+        <div class="sidebar-list">
+
+            <a href="/html/curso-html-css/clase01.html">1. Introducción html</a>
+            <a href="/html/curso-html-css/clase02.html">2. Fundamentos de Estilo y el Modelo de Caja (CSS3)</a>
+            <a href="/html/curso-html-css/clase03.html">3. Flexbox y Grid</a>
+            <a href="/html/curso-html-css/clase04.html">4. Responsive Design </a>
+
+        </div>
+
+        <a href="/html/curso.html" class="volver"><strong>← Volver al curso</strong></a>
+    </aside>
+
+    <!-- VIDEO Y CONTENIDO -->
+    <main class="clase-main">
+
+        <div class="video-player-container">
+            <!-- Contenedor del video actual -->
+            <div class="current-video-container">
+                <iframe id="current-video" src="https://youtu.be/r9kbdUJu89Y" width="640" height="480"></iframe>
+            </div>
+
+            <!-- Lista de reproducción -->
+            <div class="playlist-container">
+                <h3>Lista de reproducción</h3>
+                <div class="playlist">
+                    <div class="playlist-item active" data-video-id="r9kbdUJu89Y" data-video-type="youtube">
+                        <span class="playlist-number">1</span>
+                        <span class="playlist-title">Flexbox y Grid parte 1</span>
+                        <span class="playlist-duration">2:39</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="K4wF24rc2hg">
+                        <span class="playlist-number">2</span>
+                        <span class="playlist-title">Flexbox y Grid parte 2</span>
+                        <span class="playlist-duration">2:26</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="NzW9oyKgswE">
+                        <span class="playlist-number">3</span>
+                        <span class="playlist-title">Flexbox y Grid parte 3</span>
+                        <span class="playlist-duration">3:34</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="Q33nKsOpJrc">
+                        <span class="playlist-number">4</span>
+                        <span class="playlist-title">Flexbox y Grid parte 4</span>
+                        <span class="playlist-duration">2:27</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="bsnHXri-7dg">
+                        <span class="playlist-number">5</span>
+                        <span class="playlist-title">Flexbox y Grid parte 5</span>
+                        <span class="playlist-duration">2:48</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="mjEv1ziq2NQ">
+                        <span class="playlist-number">6</span>
+                        <span class="playlist-title">Flexbox y Grid parte 6</span>
+                        <span class="playlist-duration">3:35</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="Bxeh4F5OeQ0">
+                        <span class="playlist-number">7</span>
+                        <span class="playlist-title">Flexbox y Grid parte 7</span>
+                        <span class="playlist-duration">2:31</span>
+                    </div>
+                    <div class="playlist-item" data-video-id="_4n0x8y9feo">
+                        <span class="playlist-number">8</span>
+                        <span class="playlist-title">Flexbox y Grid parte 8</span>
+                        <span class="playlist-duration">2:03</span>
+                    </div>
+                </div>
+
+                <!-- Controles de navegación -->
+                <div class="playlist-controls">
+                    <button id="prev-video" class="playlist-btn">← Anterior</button>
+                    <span id="video-counter">Video 1 de 4</span>
+                    <button id="next-video" class="playlist-btn">Siguiente →</button>
+                </div>
+            </div>
+        </div>
+
+        <h1>3. Flexbox y Grid</h1>
+
+        <p class="descripcion"><Strong>Flexbox</Strong> Su especialidad: Acomodar cosas en una sola dirección (una fila
+            O una columna).
+            Imagínalo como un collar de perlas: tú decides si el hilo va horizontal o vertical, y cómo se distribuyen
+            las perlas a lo largo de ese hilo.
+
+            <strong>Grid: </strong> Su especialidad: Acomodar cosas en dos direcciones al mismo tiempo (Filas Y
+            Columnas). Imagínalo como un
+            tablero de ajedrez o una hoja de Excel. Tú defines la cuadrícula y luego dices "quiero que este elemento
+            ocupe desde la celda A1 hasta la B2".
+        </p>
+
+        <h2><strong>Módulo 3:</strong> Diseño de Layouts Modernos (Flexbox y Grid)</h2>
+        <a><strong>Enfoque:</strong> Enfoque: Dejar atrás los floats y aprender a posicionar elementos
+            profesionalmente.</a>
+
+        <h3><Strong>Temario</Strong></h3>
+
+        <ul>
+            <li>Posicionamiento (Static, Relative, Absolute, Fixed, Sticky)</li>
+            <li><strong>Flexbox: </strong>Ejes principales y cruzados, alineación y distribución de espacio
+                (justify-content, align-items). Ideal para componentes lineales.</li>
+            <li><strong>CSS Grid Layout: </strong> Creación de grillas bidimensionales (filas y columnas), áreas de grid
+                y gap. Ideal para maquetación general.</li>
+            <li>Tipografía web (Google Fonts) y Unidades de medida (px, rem, em, %, vh/vw).</li>
+            <li>Formularios modernos y validaciones nativas.</li>
+        </ul>
+
+        <p><strong>Ejemplo en clase: </strong>
+        <ol>
+            <li>Crear una barra de navegación responsiva con Flexbox.</li>
+            <li>Crear una galería de imágenes tipo "Pinterest" con Grid.</li>
+        </ol>
+        <p><strong>Práctica guiada: </strong>Maquetar una Landing Page básica con cabecera, sección de servicios (3
+            columnas) y pie de página.</p>
+        <p><strong>Tarea autónoma: </strong>Diseñar el layout de una página de "Dashboard" o Panel de Control,
+            utilizando Grid para la estructura principal y Flexbox para los menús internos.</p>
+
+        <h3>Recursos de la clase</h3>
+        <ul class="recursos">
+            <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">📄 Apuntes</a></li>
+            <li><a href="https://www.w3schools.com/">📁 Código fuente</a></li>
+            <li><a href="https://docs.div.zone/docs/intro">📝 Ejercicios</a></li>
+        </ul>
+
+        <h3>Comentarios</h3>
+
+        <div class="comentario">
+            <strong>Carlos:</strong>
+            <p>Excelente inicio 🔥</p>
+        </div>
+
+        <div class="comentario">
+            <strong>María:</strong>
+            <p>¡Muy motivador el arranque!</p>
+        </div>
+
+        <textarea placeholder="Escribe tu comentario..."></textarea>
+        <button class="btn">Enviar</button>
+
+    </main>
+    <!-- Enlace al archivo JavaScript externo -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

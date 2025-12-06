@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Digital - Plataforma</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <h2>Academia <span>Digital</span></h2>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a class="active" href="/html/curso.html">📚 Mis cursos</a>
+            <a href="#ruta">🧭 Rutas de aprendizaje</a>
+            <a href="#recomendados">🌟 Recomendados</a>
+            <a href="#perfil">👤 Mi perfil</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <button class="logout">Cerrar sesión</button>
+        </div>
+    </aside>
+
+
+    <main class="main">
+
+        <header class="main-header">
+            <input type="text" placeholder="Buscar cursos..." class="search-input">
+            <div class="user-info">
+                <img src="https://i.pravatar.cc/40" alt="usuario">
+            </div>
+        </header>
+
+        <section class="section" id="perfil">
+            <h2>Mi Progreso</h2>
+            <div class="profile-widget">
+                <div class="profile-header">
+                    <img src="https://i.pravatar.cc/80" alt="Perfil Grande">
+                    <div class="profile-details">
+                        <h3>Alex Desarrollador</h3>
+                        <p>Nivel: <strong>Intermedio</strong> 🚀</p>
+                        <span class="badge">Desarrollador Frontend</span>
+                    </div>
+                </div>
+                <div class="profile-stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-num">12</span>
+                        <span class="stat-label">Cursos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">85%</span>
+                        <span class="stat-label">Promedio</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">5</span>
+                        <span class="stat-label">Certificados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">34h</span>
+                        <span class="stat-label">Aprendizaje</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="ruta">
+            <h2>Mi Ruta: Frontend Developer</h2>
+            <p style="margin-bottom: 20px; color: #666;">Haz clic en cada etapa para ver detalles</p>
+
+            <div class="learning-path-container">
+                <div class="path-step completed clickable" data-step="1">
+                    <div class="step-icon">✓</div>
+                    <div class="step-content">
+                        <h4>Fundamentos Web</h4>
+                        <p>HTML5 & CSS3</p>
+                    </div>
+                </div>
+                <div class="path-line completed"></div>
+
+                <div class="path-step active-step clickable" data-step="2">
+                    <div class="step-icon">⚡</div>
+                    <div class="step-content">
+                        <h4>JavaScript Moderno</h4>
+                        <p>ES6+, DOM, Async</p>
+                    </div>
+                </div>
+                <div class="path-line"></div>
+
+                <div class="path-step locked clickable" data-step="3">
+                    <div class="step-icon">🔒</div>
+                    <div class="step-content">
+                        <h4>Frameworks (React)</h4>
+                        <p>Hooks, Redux</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Continuar viendo</h2>
+
+            <div class="course-row">
+                <a href="/html/curso.html">
+                    <div class="course-card horizontal">
+                        <img src="/img/html5-css3.jpg" alt="curso">
+                        <div class="card-info">
+                            <h3>HTML + CSS Profesional</h3>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 45%"></div>
+                            </div>
+                            <span class="progress-text">40% completado</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Mis cursos</h2>
+
+            <div class="course-grid">
+                <a href="/html/curso_javascript.html">
+                    <div class="course-card">
+                        <img src="/img/JavaScript.jpg">
+                        <h3>Curso de JavaScript moderno</h3>
+                        <p>Aprende diseño web moderno desde cero.</p>
+                    </div>
+                </a>
+
+                <a href="/html/curso_python.html">
+                    <div class="course-card">
+                        <img src="/img/python-curso-1024x576.jpg">
+                        <h3>Python Básico</h3>
+                        <p>Fundamentos sólidos de programación.</p>
+                    </div>
+                </a>
+                <div class="course-card">
+                    <img src="/img/diseno-ux.jpg">
+                    <h3>Diseño UX/UI</h3>
+                    <p>Diseño centrado en el usuario con proyectos reales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="recomendados">
+            <h2>Recomendados para ti</h2>
+
+            <div class="course-grid">
+                <div class="course-card">
+                    <img src="/img/React.png">
+                    <h3>React para principiantes</h3>
+                    <p>Crea interfaces modernas paso a paso.</p>
+                </div>
+
+                <div class="course-card">
+                    <img src="/img/Ilustrador.avif">
+                    <h3>Ilustración Digital</h3>
+                    <p>Aprende técnicas de dibujo digital.</p>
+                </div>
+
+                <div class="course-card">
+                    <img src="/img/MKTR.png">
+                    <h3>Marketing Digital Completo</h3>
+                    <p>Domina SEO, redes y publicidad.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="modal-overlay" id="pathModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-header">
+                <span class="modal-badge" id="modalStatus">Completado</span>
+                <h3 id="modalTitle">Título del Paso</h3>
+            </div>
+            <div class="modal-body">
+                <p id="modalDesc">Descripción del contenido...</p>
+
+                <div class="modal-resources">
+                    <h4>Recursos incluidos:</h4>
+                    <ul id="modalList">
+                    </ul>
+                </div>
+
+                <button class="btn-primary" id="modalAction">Ir al curso</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

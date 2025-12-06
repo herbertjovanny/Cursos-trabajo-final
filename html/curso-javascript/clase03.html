@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript moderno</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="video-layout">
+    <!-- SIDEBAR DEL CURSO -->
+    <aside class=" clase-sidebar">
+        <h2>Curso de JavaScript moderno</h2>
+
+        <div class="sidebar-list">
+
+            <a href="/html/curso-javascript/clase01.html">1. Fundamentos del Nuevo Estándar</a>
+            <a href="/html/curso-javascript/clase02.html">2. Lógica de Datos y Programación Funcional</a>
+            <a href="/html/curso-javascript/clase03.html">3. Asincronía y El Event Loop</a>
+            <a href="/html/curso-javascript/clase04.html">4. Arquitectura, Módulos y Tooling</a>
+
+        </div>
+
+        <a href="/html/curso.html" class="volver"><strong>← Volver al curso</strong></a>
+    </aside>
+
+    <!-- VIDEO Y CONTENIDO -->
+    <main class="clase-main">
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/2Ji-clqUYnA" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h1>Módulo 3. Asincronía y El Event Loop</h1>
+
+        <p class="descripcion">La asincronía en JavaScript permite que el código ejecute operaciones largas sin bloquear
+            el hilo principal, manteniendo la fluidez de la aplicación, mientras que el Event Loop es el mecanismo que
+            gestiona esta asincronía. El Event Loop supervisa constantemente la "Pila de Llamadas" (Call Stack) y una o
+            más "Colas" de tareas asíncronas. Cuando la Pila de Llamadas está vacía, el Event Loop toma la primera tarea
+            de la cola y la mueve a la Pila para su ejecución.</p>
+
+        <a><strong>Enfoque:</strong> Comprender cómo JavaScript maneja tareas que toman tiempo (peticiones a servidores)
+            sin congelar la interfaz.</a>
+
+        <h3><Strong>Temario</Strong></h3>
+
+        <ul>
+            <li><strong>El Event Loop: </strong>Call Stack, Web APIs y Callback Queue (Teoría
+                esencial).</li>
+            <li><strong>Promesas (Promises): </strong>Estados, .then(), .catch() y .finally().</li>
+            <li><strong>Async / Await: </strong>La forma moderna de consumir promesas. Manejo de errores con try/catch.
+            </li>
+            <li><strong>Fetch API: </strong>Peticiones HTTP nativas (GET, POST, PUT, DELETE).</li>
+            <li><strong>Manejo de promesas paralelas: </strong>Promise.all vs Promise.allSettled.</li>
+        </ul>
+
+        <p><strong>Práctica guiada: </strong>"Buscador de Clima". Conectar con una API pública (como OpenWeatherMap)
+            usando fetch y async/await para mostrar el clima actual de una ciudad ingresada por el usuario.</p>
+        <p><strong>Tarea / Proyecto: Paginación Asíncrona. </strong>Crear una galería de imágenes que cargue contenido
+            nuevo (infinite scroll o
+            botones) trayendo datos de una API (como Rick and Morty API o Unsplash), manejando estados de "Cargando..."
+            y errores de red.</p>
+
+        <h3>Recursos de la clase</h3>
+        <ul class="recursos">
+            <li><a href="#">📄 Apuntes en PDF</a></li>
+            <li><a href="#">📁 Código fuente</a></li>
+            <li><a href="#">📝 Ejercicios</a></li>
+        </ul>
+
+        <h3>Comentarios</h3>
+
+        <div class="comentario">
+            <strong>Carlos:</strong>
+            <p>Excelente inicio 🔥</p>
+        </div>
+
+        <div class="comentario">
+            <strong>María:</strong>
+            <p>¡Muy motivador el arranque!</p>
+        </div>
+
+        <textarea placeholder="Escribe tu comentario..."></textarea>
+        <button class="btn">Enviar</button>
+
+    </main>
+
+</body>
+
+</html>
